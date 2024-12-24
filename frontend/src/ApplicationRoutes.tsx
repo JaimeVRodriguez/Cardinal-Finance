@@ -4,9 +4,6 @@ import HomePage from './components/home-page/view/HomePage';
 
 export default function ApplicationRoutes() {
     return (
-        // Adding comment for test
-        // Adding another comment for test
-
         <Routes>
             <Route>
                 <Route path={'/'} element={<AuthorizationPage/>}/>
