@@ -26,6 +26,7 @@ export default function CareerDialog({isOpen, handleClose} : CareerDialogProps) 
                     Software Developer
                 </DialogContentText>
             </DialogContent>
+        <Divider/>
         </Dialog>
         </>
     )
