@@ -1,4 +1,4 @@
-import {Dialog, DialogContent, DialogContentText, DialogTitle, Typography} from "@mui/material";
+import {Dialog, DialogContent, DialogContentText, DialogTitle, Divider, Typography} from "@mui/material";
 
 interface CareerDialogProps {
     isOpen: boolean;
@@ -17,6 +17,7 @@ export default function CareerDialog({isOpen, handleClose} : CareerDialogProps) 
             <DialogTitle>
                 Career
             </DialogTitle>
+            <Divider/>
             <DialogContent>
                 <DialogContentText>
                     Retail Store Manager
