@@ -25,6 +25,7 @@ export default function CareerDialog({isOpen, handleClose} : CareerDialogProps) 
                 <DialogContentText>
                     Software Developer
                 </DialogContentText>
+            {/*TODO:  Remove this divider*/}
             </DialogContent>
         <Divider/>
         </Dialog>
